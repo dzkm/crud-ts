@@ -1,5 +1,8 @@
+
 import { Router } from "express";
 
 const router = Router();
 
-export { router };
+export const router = Router();
+
+router.get('/items', getItems);
