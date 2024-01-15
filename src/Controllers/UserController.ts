@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 class UserController {
-    public getUsers(req: Request, res: Response): void {
+    public getAll(req: Request, res: Response): void {
         // Logic to fetch users from the database
         const users = [
             { id: 1, name: 'John Doe' },
